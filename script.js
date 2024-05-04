@@ -7,7 +7,7 @@ class Animal {
 		return this.species;
 	}
 	makeSound() {
-		console.log("makes a sound");
+		console.log("The Siamese makes a sound");
 	}
 }
 
@@ -15,9 +15,9 @@ class Dog extends Animal {
 	constructor(name){
 		super(name);
 	}
-	makeSound() {
-		console.log(this.name+" makes a sound");
-	}
+	// makeSound() {
+	// 	console.log(this.name+" makes a sound");
+	// }
 	bark() {
 		console.log("woof");
 	}
@@ -27,9 +27,9 @@ class Cat extends Animal {
 	constructor(name){
 		super(name);
 	}
-	makeSound() {
-		console.log(this.name+" makes a sound");
-	}
+	// makeSound() {
+	// 	console.log(this.name+" makes a sound");
+	// }
 	purr() {
 		console.log("purr");
 	}
