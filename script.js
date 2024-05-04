@@ -31,7 +31,7 @@ class Cat extends Animal {
 		console.log(this.name+" makes a sound");
 	}
 	purr() {
-		console.log("woof");
+		console.log("purr");
 	}
 }
 
